@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Portfolio | Web Developer</title>
+  <meta name="description" content="My personal portfolio showcasing my web development skills and projects.">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link contact-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">HELLO, WELCOME TO MY WORLD</p>
+
+          <h1>Hi, I'm <span>Ndey adam Trawally</span></h1>
+
+          <h2>An Aspiring Web Developer</h2>
+
+          <p class="hero-description">
+            I love turning creative ideas into beautiful,
+            responsive websites. I'm learning, building,
+            and growing one project at a time.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Explore My Work
+            </a>
+            <a href="#contact" class="button button-outline">
+              Let's Connect
+            </a>
+          </div>
+
+          <p class="small-note">Creative ideas. Beautiful websites. Endless learning.</p>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="image-decoration"></div>
+
+          <div class="photo-circle">
+            <img src="images/my profile.jpg" alt="My profile photo">
+          </div>
+
+          <div class="photo-label">
+            <span class="status-dot"></span>
+            Learning and creating
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container narrow reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">A Little <span>About Me</span></h2>
+
+        <p>
+          My name is Ndey adam Trawally, and I am a student of JCC and aspiring
+          web developer passionate about technology and design.
+          I enjoy learning how websites work and creating
+          experiences that are both attractive and easy to use.
+        </p>
+        <p>
+          I am continuously improving my skills through practice
+          and projects. My goal is to become a confident developer
+          who can turn ideas into real digital experiences.
+        </p>
+
+        
+
+        <a href="#contact" class="text-link">Let's work together →</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container reveal">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p class="section-intro">
+          The tools and technologies I'm learning and practicing.
+        </p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">H5</div>
+            <h3>HTML</h3>
+            <p>Building the structure of websites.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">C3</div>
+            <h3>CSS</h3>
+            <p>Creating attractive layouts and designs.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interaction to web pages.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">Py</div>
+            <h3>Python</h3>
+            <p>Learning programming fundamentals.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">Git</div>
+            <h3>Git & GitHub</h3>
+            <p>Managing code and sharing projects.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">UI</div>
+            <h3>Responsive Design</h3>
+            <p>Making websites work on different screens.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="container reveal">
+        <p class="eyebrow">THINGS I'VE BUILT</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p class="section-intro">
+          A selection of projects from my learning journey.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-one">
+              <span>01</span>
+              <strong>CHOP CHOP</strong>
+              <small>Restaurant Website</small>
+            </div>
+            <div class="project-content">
+              <h3>Restaurant Website</h3>
+              <p>
+                A restaurant website concept designed to display
+                food, menus, and ordering information.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a class="text-link" href="#contact">Ask me about this project →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-two">
+              <span>02</span>
+              <strong>TERANGA FRAMES</strong>
+              <small>Photography Portfolio</small>
+            </div>
+            <div class="project-content">
+              <h3>Photography Website</h3>
+              <p>
+                A creative website concept for presenting photography,
+                services, and a gallery of images.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>Flexbox</span>
+              </div>
+              <a class="text-link" href="#contact">Ask me about this project →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-three">
+              <span>03</span>
+              <strong>MY DATABASE</strong>
+              <small>Database Project</small>
+            </div>
+            <div class="project-content">
+              <h3>Database Project</h3>
+              <p>
+                A learning project exploring how to organize and
+                manage information in a database.
+              </p>
+              <div class="tags">
+                <span>SQL</span><span>Database</span>
+              </div>
+              <a class="text-link" href="#contact">Ask me about this project →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container narrow reveal">
+        <p class="eyebrow">LET'S TALK</p>
+        <h2 class="section-title">Let's Build Something <span>Beautiful</span></h2>
+
+        <p>
+          Have a project idea, an opportunity, or just want to connect?
+          I'd love to hear from you.
+        </p>
+
+        <a class="button button-primary email-button"
+           href="mailto:ndeyadamtrawally88@gmail.com">
+          Email Me
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+      <p>© <span id="year"></span> Your Name. Made with care ♡</p>
+      <a href="#home" class="text-link">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
